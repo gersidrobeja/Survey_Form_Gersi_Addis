@@ -28,20 +28,32 @@
       <p id="description">Help us by filling out this survey</p>
 
       <form id="survey-form">
+        
       
         <div>
           <label for="name" id="name-label">Full name:</label>
-          <input id="name" type="text">
+          
+          <input id="name" type="text" placeholder="Enter your full name." >
         </div>
         
         <div>
-          <label for="email" id="email-label">Email:</label>
-          <input id="email" type="text" type="email">
+          <label for="email" id="email-label"  >Email:</label>
+          <input id="email" type="text" type="email" placeholder="Enter your email address." >
         </div>
 
         <div>
-          <label for="number" id="number-label">Age:</label>
-          <input id="number" type="number" min=10 max=200>
+          <label for="number" id="number-label"  >Age:</label>
+          <input id="number" type="number" min=10 max=200 placeholder="Age.">
+        </div>
+
+        <div>
+          <h5>Select your Faculty:</h5>
+          <select id="dropdown">
+            <option value="Engineering">Engineering</option>
+            <option value="Natural Sciences">Natural Sciences</option>
+            <option value="Medicine">Medicine</option>
+            <option value="Social Sciences"> Social Sciences</option>
+          </select>
         </div>
 
       </form>
