@@ -32,22 +32,23 @@
       
         <div>
           <label for="name" id="name-label">Full name:</label>
-          <input id="name" type="text" placeholder="Enter your full name.">
+          <input id="name" type="text" class="form-control" placeholder="Enter your full name.">
         </div>
         
         <div>
           <label for="email" id="email-label"  >Email:</label>
-          <input id="email" type="text" type="email" placeholder="Enter your email address." >
+          <input id="email" class="form-control" type="email" placeholder="Enter your email address." >
         </div>
 
         <div>
           <label for="number" id="number-label"  >Age:</label>
-          <input id="number" type="number" min=10 max=200 placeholder="Age.">
+          <input id="number" class="form-control" type="number" min=10 max=200 placeholder="Age.">
         </div>
 
         <div>
-          <h5>Select your Faculty:</h5>
-          <select id="dropdown">
+          <p>Faculty:</p>
+          <select id="dropdown" class="form-control">
+            <option value="">Selct your Faculty</option>
             <option value="Engineering">Engineering</option>
             <option value="Natural Sciences">Natural Sciences</option>
             <option value="Medicine">Medicine</option>
@@ -56,20 +57,38 @@
         </div>
 
         <div>
-          <h5>Selct year:</h5>
-          <label><input type="radio" value="1">1</label>
-          <label><input type="radio" value="2">2</label>
-          <label><input type="radio" value="3">3</label>
-          <label><input type="radio" value="4">4</label>
+          <p>Selct year:</p>
+          <label class="form-control">
+            <input type="radio" value="1">1
+          </label>
+          <label class="form-control">
+            <input type="radio" value="2">2
+          </label>
+          <label class="form-control">
+            <input type="radio" value="3">3
+          </label>
+          <label class="form-control">
+            <input type="radio" value="4">4
+          </label>
         </div>
         
         <div>
-          <h5>Extracurricular activities:</h5>
-          <label><input type="checkbox" value="Sports club">Sports club</label>
-          <label><input type="checkbox" value="Litrature club">Litrature club</label>
-          <label><input type="checkbox" value="Music club">Music club</label>
-          <label><input type="checkbox" value="Theatre club">Theatre club</label>
-          <label><input type="checkbox" value="Science club">Science club</label>
+          <p>Extracurricular activities:</p>
+          <label class="form-control">
+            <input type="checkbox" value="Sports club">Sports club
+          </label>
+          <label class="form-control">
+            <input type="checkbox" value="Litrature club">Litrature club
+          </label>
+          <label class="form-control">
+            <input type="checkbox" value="Music club">Music club
+          </label>
+          <label class="form-control">
+            <input type="checkbox" value="Theatre club">Theatre club
+          </label>
+          <label class="form-control">
+            <input type="checkbox" value="Science club">Science club
+          </label>
         </div>
 
       </form>
