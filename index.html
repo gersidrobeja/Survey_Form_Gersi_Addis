@@ -21,31 +21,30 @@
     - The freeCodeCamp Team
 
     -->
-    <div>
+    <div id="main">
 
-      <h1 id="title">University Servey</h1>
+      <h1 id="title">University Survey</h1>
 
       <p id="description">Help us by filling out this survey</p>
 
       <form id="survey-form">
-        
       
-        <div>
+        <div class="form-element">
           <label for="name" id="name-label">Full name:</label>
           <input required id="name" type="text" class="form-control" placeholder="Enter your full name.">
         </div>
         
-        <div>
+        <div class="form-element">
           <label for="email" id="email-label"  >Email:</label>
           <input required id="email" class="form-control" type="email" placeholder="Enter your email address." >
         </div>
 
-        <div>
+        <div class="form-element">
           <label for="number" id="number-label"  >Age:</label>
           <input id="number" class="form-control" type="number" min=10 max=200 placeholder="Age.">
         </div>
 
-        <div>
+        <div class="form-element">
           <p>Faculty:</p>
           <select id="dropdown" class="form-control">
             <option value="">Selct your Faculty</option>
@@ -56,44 +55,44 @@
           </select>
         </div>
 
-        <div>
+        <div class="form-element">
           <p>Selct year:</p>
           <label class="form-control">
-            <input name="year"type="radio" value="1">1
+            <input name="year"type="radio" class="radio" value="1">1
           </label>
           <label class="form-control">
-            <input name="year" type="radio" value="2">2
+            <input name="year" type="radio" class="radio" value="2">2
           </label>
           <label class="form-control">
-            <input name="year"type="radio" value="3">3
+            <input name="year"type="radio" class="radio" value="3">3
           </label>
           <label class="form-control">
-            <input name="year" type="radio" value="4">4
+            <input name="year" type="radio" class="radio" value="4">4
           </label>
         </div>
         
-        <div>
+        <div class="form-element">
           <p>Extracurricular activities:</p>
           <label class="form-control">
-            <input type="checkbox" value="Sports club">Sports club
+            <input type="checkbox" class="checkbox" value="Sports club">Sports club
           </label>
           <label class="form-control">
-            <input type="checkbox" value="Litrature club">Litrature club
+            <input type="checkbox" class="checkbox" value="Litrature club">Litrature club
           </label>
           <label class="form-control">
-            <input type="checkbox" value="Music club">Music club
+            <input type="checkbox" class="checkbox" value="Music club">Music club
           </label>
           <label class="form-control">
-            <input type="checkbox" value="Theatre club">Theatre club
+            <input type="checkbox" class="checkbox" value="Theatre club">Theatre club
           </label>
           <label class="form-control">
-            <input type="checkbox" value="Science club">Science club
+            <input type="checkbox" class="checkbox" value="Science club">Science club
           </label>
         </div>
 
-        <div>
-          <p>Comments:</p>
-          <textarea name="Additional Comments" id="Additional Comments" cols="30" rows="10"></textarea>
+        <div class="form-element">
+          <p>Any comments?</p>
+          <textarea name="Additional Comments" id="Additional Comments" cols="30" rows="10" placeholder="Enter your comments..."></textarea>
         </div>
 
         <div>

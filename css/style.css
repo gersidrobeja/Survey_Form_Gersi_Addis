@@ -1,3 +1,61 @@
+#main{
+    width: 600px;
+    margin: 0 auto 0 auto;
+    padding: 20px 0 20px 0;
+    background-color: azure;
+}
+
+#survey-form{
+    padding: 0 100px 0 100px;
+   /*  width: 400px;
+    margin: 0 auto 0 auto; */
+}
+
+#title , #description {
+    text-align: center;
+} 
+
+.form-element{
+    margin-bottom: 10px;
+}
+
 .form-control{
     display: block;
+    width: 100%;
+    padding: 0 10px 0 10px;
+}
+
+label , .form-element > p {
+    display: flex;
+    /* align-items: center; */
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+/* Mobile L */
+@media (min-width: 425px){
+    label , .form-element > p{
+        font-size: 1rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px){
+    label , .form-element > p{
+        font-size: 0.9rem;
+    }
+}
+
+#title{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#description{
+    margin: 5px 0 20px 0;
+}
+
+.checkbox, .radio {
+    margin-right: 5px;
+    margin-top: 2px;
 }
